@@ -1,0 +1,25 @@
+{
+    "name": "dominik/event-calendar",
+    "description": "Event calendar",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dominik Malik",
+            "email": "dominikm25@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "dominik\\event\\EventServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Dominik\\Event\\": "src/"
+        }
+    }
+}
